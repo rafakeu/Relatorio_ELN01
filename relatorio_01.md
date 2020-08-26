@@ -89,7 +89,7 @@ e para Vin = -0,5 v:
 
 Apartir do valor de Vin = 1,05 v é possivel verificar que há uma saturação observando um pequeno ceifamento na forma de onda: 
 
-![Medidas obtidas](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/TL082_inversor_sat.png)
+![Medidas obtidas](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/inversor_TL082_sat.png)
 
 Vout satura, e assume o valor de +/-10,37 V o que representa 86% do valor de alimentação.
 
