@@ -12,6 +12,6 @@ Aluno:
 
 Relatórios:
 
-* [Ampop Não ideal](/*link*/)
+* [Ampop Não ideal](https://github.com/rafakeu/Relatorio_ELN01/blob/master/relatorio_01.md)
 
-* [Circuitos Retificadores](/*link*/)
+* [Circuitos Retificadores](https://github.com/rafakeu/Relatorio_ELN01/blob/master/relatorio_02.md)
