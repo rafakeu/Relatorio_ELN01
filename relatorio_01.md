@@ -24,7 +24,7 @@ Podemos observar que Vout não possui o mesmo valor de Vin, considerando que o p
 
 As medidas obtidas nesse pontos são:
 
-Tensão de pico posiva:
+
 
 ![Medidas obtidas](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/LM324_Buffer_Vpos.png)
 
@@ -37,9 +37,12 @@ Para o TL082:
 
 ![Buffer TL082](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/Buffer_TL082.png)
 
-Comparando os resultados:
+A diferença entre Vin e Vout representa um valor despresível ao comparar com a dimensão de Vin e Vout. Então podemos dizer: Vin = Vout.    
 
-\*Comentario\*
+
+![Buffer TL082](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/Buffer_comparacao.png)
+
+As divergências encontradas entre os valores calculados e simulados pode ser explicada pela presença de tensões de offset, devido a imperfeições CC do ampop.  
 
 ## Amplificador inversor
 
