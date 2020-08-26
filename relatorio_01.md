@@ -2,7 +2,7 @@
 
  Estudo das características de um amplificador operacional não ideal e de um circuito amplificador subtrator. 
 
- >Foram Utilizados os modelos de Ampop LM324N e TL082 nas simulações.
+ >Foram Utilizados os modelos SPICE dos Ampops LM324N e TL082 nas simulações.
 
 ## Seguidor de Tensão
 
@@ -14,9 +14,9 @@ Circuito simulado:
 
 ![Esquemático Buffer](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/Buffer_esquematico.png)
 
-E como resultado da simulação
+E como resultado da simulação,
 
-Para o LM324N:
+para o LM324N:
 
 ![Buffer LM324N](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/Buffer_LM324.png)
 
@@ -24,7 +24,7 @@ Podemos observar que Vout não possui o mesmo valor de Vin, considerando que o p
 
 As medidas obtidas nesse pontos são:
 
-
+tensão de pico positiva:
 
 ![Medidas obtidas](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/LM324_Buffer_Vpos.png)
 
@@ -33,7 +33,7 @@ E tensão de pico negativa:
 ![Medidas obtidas](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/LM324_Buffer_Vneg.png)
 
 
-Para o TL082:
+para o TL082:
 
 ![Buffer TL082](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/Buffer_TL082.png)
 
