@@ -46,21 +46,54 @@ As divergências encontradas entre os valores calculados e simulados pode ser ex
 
 ## Amplificador inversor
 
+Circuito Ideal:
+
+Vout = - (R2/R1) * Vin
+
+Com R2 = 20k e R1 = 2k
+
+Vout = 10 * Vin
+
 Circuito simulado:
 
-![Esquemático Amplificador inversor]()
+![Esquemático Amplificador inversor](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/inversor_esquematico.png)
 
 E como resultado da simulação
 
 Para o LM324N:
 
-![Amplificador inversor LM324N]()
+![Amplificador inversor LM324N](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/inversor_LM324N.png)
+
+para Vin = 0,5 v obtivemos:
+
+![Medidas obtidas](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/LM324_inversor_Vpos.png)
+
+e para Vin = -0,5 v:
+
+![Medidas obtidas](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/LM324_inversor_Vneg.png)
+
+
 
 Para o TL082:
 
-![Amplificador inversor TL082]()
+![Amplificador inversor TL082](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/inversor_TL082.png)
 
-\*Comentario\*
+
+para Vin = 0,5 v obtivemos:
+
+![Medidas obtidas](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/TL082_inversor_Vpos.png)
+
+e para Vin = -0,5 v:
+
+![Medidas obtidas](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/TL082_inversor_Vneg.png)
+
+Apartir do valor de Vin = 1,05 v é possivel verificar que há uma saturação observando um pequeno ceifamento na forma de onda: 
+
+![Medidas obtidas](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/TL082_inversor_sat.png)
+
+Vout satura, e assume o valor de +/-10,37 V o que representa 86% do valor de alimentação.
+
+
 
 ## Amplificador não-inversor
 
