@@ -6,6 +6,10 @@
 
 ## Seguidor de Tensão
 
+Idealmente temos:
+
+Vi = Vo
+
 Circuito simulado:
 
 ![Esquemático Buffer]()
@@ -20,7 +24,7 @@ Para o TL082:
 
 ![Buffer TL082]()
 
-| Tables | Are | Cool | |----------|:-------------:|------:| | col 1 is| left-aligned | $1600 | 
+Comparando os resultados:
 
 \*Comentario\*
 
