@@ -75,7 +75,7 @@ e para Vin = -0,5 v:
 A saturação positiva ocorreu apartir de Vin = 1,08 v: 
 
 
-![Saturação Positiva](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/sat_pos_LM324N.png)
+![Saturação Positiva](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/Sat_pos_LM324N.png)
 
 Onde Vout = 10,76 v representando 90% do valor de alimentação.
 
@@ -104,7 +104,7 @@ Apartir do valor de Vin = 1,05 v é possivel verificar que há uma saturação o
 
 Vout satura, e assume o valor de +/-10,37 V o que representa 86% do valor de alimentação.
 
-imperfeição:
+imperfeição(LM324N):
 
 ![Imperfeição](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/inversor_LM324N_imperfeicao.png)
 
