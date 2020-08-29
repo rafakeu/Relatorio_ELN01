@@ -109,40 +109,72 @@ imperfeição(LM324N):
 ![Imperfeição](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/inversor_LM324N_imperfeicao.png)
 
 ## Amplificador não-inversor
+Circuito ideal:
 
+Vout = (1 + R2/R1) * Vin
+
+Vout = 11 * Vin
 
 Circuito simulado:
 
-![Esquemático Amplificador não-inversor]()
+![Esquemático Amplificador não-inversor](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/n_inversor_esquematico.png)
 
 E como resultado da simulação
 
 Para o LM324N:
 
-![Amplificador não-inversor LM324N]()
+![Amplificador não-inversor LM324N](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/n_inversor_LM324N.png)
+
+![Medidas obtidas](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/LM324_n_inversor_Vpos.png)
+
+Ganho obtido em t = 0,25ms : 11,06 v/v
+
+![Medidas obtidas](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/LM324_n_inversor_Vneg.png)
+
+Ganho obtido em t = 0,75ms : 10,94 v/v
+
+Apartir de Vin = 0,98 v, há saturação positiva no ampop:
+
+![Sauturação não-inversor LM324N](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/Sat_pos_n_inv_LM324N.png)
+
+Vout = 10,77 v representando 90% do valor de alimentação.
 
 Para o TL082:
 
-![Amplificador não-inversor TL082]()
+![Amplificador não-inversor TL082](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/n_inversor_TL082.png)
 
-\*Comentario\*
+![Medidas obtidas](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/TL082_n_inversor_Vpos.png)
+
+Ganho aproximado em t = 0,25ms : 11 v/v
+
+![Medidas obtidas](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/TL082_n_inversor_Vneg.png)
+
+Ganho aproximado em t = 0,75ms : 11 v/v
+
+Apartir de Vin = +/-0,96 v, há saturação no ampop:
+
+![Sauturação não-inversor TL082](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/Sat_pos_n_inv_TL082.png)
+
+Vout = +/-10,39 v representando 86% do valor de alimentação.
+
+Os valores de ganho obtidos em simulação divergem pouco dos valores ideiais.
 
 ## Amplificador subtrator
 
 
 Circuito simulado:
 
-![Esquemático Amplificador subtrator]()
+![Esquemático Amplificador subtrator](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/Subtrator_esquematico.png)
 
-E como resultado da simulação
+E como resultado da simulação,
 
-Para o LM324N:
+para o LM324N:
 
-![Amplificador subtrator LM324N]()
+![Amplificador subtrator LM324N](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/subtrator_LM324N.png)
 
 Para o TL082:
 
-![Amplificador subtrator TL082]()
+![Amplificador subtrator TL082](https://github.com/rafakeu/Relatorio_ELN01/blob/master/img/subtrator_TL082.png)
 
 \*Comentario\*
 
